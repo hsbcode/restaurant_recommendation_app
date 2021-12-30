@@ -1,6 +1,11 @@
 import node
 import linked_list
 import restaurantData
+from termcolor import colored
+from pyfiglet import figlet_format
+figlettext = figlet_format("Lincode Eats!","slant")
+color_figlettext = colored(figlettext,"cyan")
+print(color_figlettext)
 
 # Loading the food data to a linked list
 def insert_food_type_to_linked_list():
